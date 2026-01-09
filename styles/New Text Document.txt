@@ -72,52 +72,14 @@ nav{
 
 .hero-text{
     position: absolute;
-    bottom: 20%;
-    left: 23%;
-}
-
-.Access-box{
-    
+    bottom: 50%;
+    left: 50px;
 }
 .Access-btn{
     border: none;
     border-radius: 30px;
     padding: 2.5px 6px;
-    margin-bottom: 24px;
-    color: #000000;
 
-}
-.Access-btn img{
-    width: 10%;
-    height: 10%;
-}
 
-.hero-text h2{
-    color: #FFFFFF;
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 72px;
-    margin-bottom: 16px;
-}
-.hero-text span{
-    color: #30B868;
-}
-
-.hero-text p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 32px;
-    color: #ffffffc9;
-}
-.hero-btn button:last-child{
-    border: 1px solid seashell;
-    border-radius: 5px;
-    padding: 16px;
-    background-color: #ffffff10;
-}
-.hero-btn button a{
-    text-decoration: none;
-    color: #FFFFFF;
 
 }
