@@ -121,3 +121,119 @@ nav{
     color: #FFFFFF;
 
 }
+
+/* card section code start */
+
+#first-Structure{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: #62738209;
+}
+.card-container{
+    text-align: center;
+    padding: 0 120px;
+
+}
+.card-container h2{
+    font-size: 48px;
+    color: #000000;
+    padding: 34px 0 16px 0;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 44px;
+
+}
+
+.card-box{
+    background-color: #FFFFFF;
+    padding: 30px 15px;
+}
+.card-box img{
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+.card-box h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 16px 0;
+}
+.card-box p{
+    font-size: 16px;
+}
+
+
+/* Structure-section code start */
+
+#second-Structure{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+.Structure-section{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.Structure-text h6 {
+    color: #469165;
+    font-size: 16px;
+}
+.Structure-text h4{
+    color: #001931;
+    font-size: 28px;
+    padding: 16px 0;
+}
+.Structure-text p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+    align-items: center;
+
+}
+
+.Structure-text p img{
+    width: 4%;
+    height: 4%;
+}
+
+
+/* think-section code start */
+
+#think-section{
+    width: 65%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.think-container{
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.think-container h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.think-container p {
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+/* footer code start */
+
+footer{
+    max-width: 1240px;
+    
+}
+
+.social-box{
+    display: flex;
+    justify-content: space-between;
+}
