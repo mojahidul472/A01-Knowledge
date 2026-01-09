@@ -12,13 +12,18 @@
 /* parimary code */
     .btn{
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         background-color: #30B868;
-        padding: 12.5px 16px;
-    }
-    .btn a{
-        text-decoration: none;
         color: #FFFFFF;
+        padding: 12.5px 16px;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+
+    .btn:hover{
+        background-color: red;
+        color: #001931;
     }
 
 
@@ -27,6 +32,7 @@
 header{
     max-width: 1240px;
     margin: 0 auto;
+    background-color: #F7F6F2;
 }
 
 nav{
@@ -35,6 +41,16 @@ nav{
     padding: 16px 120px;
     align-items: center;
 
+}
+.list-item ul li{
+    padding: 5px 8px;
+    transition: 0.6s;
+}
+
+.list-item ul :hover{
+    background-color: #F95555;
+    color: #FFFFFF;
+    
 }
 
 .list-item ul{
@@ -55,10 +71,6 @@ nav{
 
 /* hero section code start  */
 
-#hero-section{
-    
-
-}
 .hero-container img{
     width: 100%;
     height: 100%;
@@ -70,6 +82,14 @@ nav{
     position: relative;
 }
 
+.hero-btn button{
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    text-align: center;
+}
+
 .hero-text{
     position: absolute;
     bottom: 20%;
@@ -77,19 +97,19 @@ nav{
 }
 
 .Access-box{
-    
+    text-align: center;
 }
 .Access-btn{
     border: none;
     border-radius: 30px;
     padding: 2.5px 6px;
     margin-bottom: 24px;
-    color: #000000;
+    color: #30B868;
 
 }
-.Access-btn img{
-    width: 10%;
-    height: 10%;
+.Access-btn img {
+    width: 8%;
+    height: 8%;
 }
 
 .hero-text h2{
@@ -109,17 +129,12 @@ nav{
     line-height: 24px;
     margin-bottom: 32px;
     color: #ffffffc9;
+    text-align: center;
 }
 .hero-btn button:last-child{
-    border: 1px solid seashell;
     border-radius: 5px;
     padding: 16px;
-    background-color: #ffffff10;
-}
-.hero-btn button a{
-    text-decoration: none;
-    color: #FFFFFF;
-
+    background-color: #ffffff1b;
 }
 
 /* card section code start */
@@ -138,6 +153,9 @@ nav{
     font-size: 48px;
     color: #000000;
     padding: 34px 0 16px 0;
+}
+.card-container p{
+    color: #627382;
 }
 .card{
     display: flex;
@@ -162,7 +180,9 @@ nav{
     margin: 16px 0;
 }
 .card-box p{
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 1.15;
+
 }
 
 
@@ -180,26 +200,38 @@ nav{
     align-items: center;
 }
 
-.Structure-text h6 {
+.Structure-text-box h6 {
     color: #469165;
     font-size: 16px;
 }
-.Structure-text h4{
+.Structure-text-box h2{
     color: #001931;
-    font-size: 28px;
+    font-size: 35px;
     padding: 16px 0;
 }
-.Structure-text p{
+.Structure-text{
     color: #627382;
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 14px;
     align-items: center;
+    padding-bottom: 16px;
+    line-height: 1.25;
+    
+
+}
+.list-text p{
+    font-size: 16px;
+    white-space: nowrap;
+    margin-bottom: 16px;
 
 }
 
-.Structure-text p img{
+.Structure-text-box p img{
     width: 4%;
     height: 4%;
+}
+.btn-icon img{
+    width: 14px;
+    height: 14px;
 }
 
 
@@ -231,7 +263,7 @@ nav{
 footer{
     max-width: 1240px;
     margin: 0 auto;
-    background-color: #000000;
+    background-color: #060d24ed;
     text-align: center;
 }
 
@@ -246,8 +278,9 @@ footer{
     color: #FFFFFF;
     margin-bottom: 16px;
 }
+
 .copy{
     text-align: center;
     color: #ffffff;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
